@@ -896,8 +896,8 @@ PRODUCT_PACKAGES += \
     CNEService \
     ims \
     qcrilmsgtunnel
-
-# GPS - from beryllium - Xiaomi/beryllium/beryllium:10/QKQ1.190828.002/V11.0.9.0.QEJMIXM:user/release-keys
+	
+	# GPS - from beryllium - Xiaomi/beryllium/beryllium:10/QKQ1.190828.002/V11.0.9.0.QEJMIXM:user/release-keys
 PRODUCT_COPY_FILES += \
     vendor/meizu/sdm710-common/proprietary/vendor/bin/garden_app:$(TARGET_COPY_OUT_VENDOR)/bin/garden_app \
     vendor/meizu/sdm710-common/proprietary/vendor/bin/hw/android.hardware.gnss@2.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gnss@2.0-service-qti \
