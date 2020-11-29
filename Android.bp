@@ -256,14 +256,11 @@ cc_prebuilt_library_shared {
 		none: true,
 	},
 	target: {
-		android_arm: {
-			srcs: ["proprietary/vendor/lib/libloc_api_v02.so"],
-		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libloc_api_v02.so"],
 		},
 	},
-	compile_multilib: "both",
+	compile_multilib: "64",
 	prefer: true,
 	soc_specific: true,
 }
